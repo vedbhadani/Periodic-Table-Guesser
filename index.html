@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table Element Guesser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Periodic Table Element Guesser</h1>
+
+    <div class="game-container">
+        <div class="top-bar">
+            <p id="score">Score: 0</p>
+            <p id="timer">Time Left: 20s</p>
+        </div>
+
+        <p id="question-text">Guess the element with atomic number:</p>
+        <p id="atomic-number"></p>
+        <input type="text" id="answer" placeholder="Type your answer here...">
+
+        <div class="button-group">
+            <button id="submit-btn">Submit</button>
+            <button id="next-btn" style="display: none;">Next</button>
+        </div>
+
+        <p id="hint"></p>
+        <p id="result" class="result-message"></p>
+        <button id="restart-btn" style="display: none;">Restart</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
